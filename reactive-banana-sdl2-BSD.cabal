@@ -1,0 +1,38 @@
+cabal-version:       2.4
+-- Initial package description 'reactive-banana-sdl2-BSD.cabal' generated
+-- by 'cabal init'.  For further documentation, see
+-- http://haskell.org/cabal/users-guide/
+
+name:                reactive-banana-sdl2-BSD
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/FortOyer/reactive-banana-sdl2
+-- bug-reports:
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              Archibald Neil MacDonald
+maintainer:          FortOyer@hotmail.co.uk
+-- copyright:
+-- category:
+extra-source-files:  CHANGELOG.md
+
+library
+  exposed-modules: Reactive.Banana.SDL Reactive.Banana.SDL.Easing Reactive.Banana.SDL.Events Reactive.Banana.SDL.Interpolation Reactive.Banana.SDL.Managed Reactive.Banana.SDL.Render Reactive.Banana.SDL.Sprite
+                  -- SDL Easing Events Interpolation Managed Render Sprite
+  other-modules: Reactive.Banana.SDL.Internal.Interpolation Reactive.Banana.SDL.Internal.Managed
+  -- other-extensions:
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
+
+  build-depends: base >= 4.7 && < 5
+               , linear
+               , reactive-banana
+               , resourcet
+               , sdl2
+               , sdl2-image
+               , sdl2-ttf
+               , text
+               , vector
+
+  hs-source-dirs:      src
+  default-language:    Haskell2010

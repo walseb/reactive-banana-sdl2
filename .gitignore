@@ -1,5 +1,2 @@
-.stack-work/
-report.html
-reactive-banana-sdl2.cabal
-*~
-
+dist-newstyle/
+dist/
