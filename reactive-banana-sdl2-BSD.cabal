@@ -18,9 +18,9 @@ maintainer:          FortOyer@hotmail.co.uk
 extra-source-files:  CHANGELOG.md
 
 library
-  exposed-modules: Reactive.Banana.SDL Reactive.Banana.SDL.Easing Reactive.Banana.SDL.Events Reactive.Banana.SDL.Interpolation Reactive.Banana.SDL.Managed Reactive.Banana.SDL.Render Reactive.Banana.SDL.Sprite
+  exposed-modules: Reactive.Banana.SDL Reactive.Banana.SDL.Easing Reactive.Banana.SDL.Events Reactive.Banana.SDL.Interpolation Reactive.Banana.SDL.Managed Reactive.Banana.SDL.Render Reactive.Banana.SDL.Sprite Reactive.Banana.SDL.Internal.Interpolation Reactive.Banana.SDL.Internal.Managed
                   -- SDL Easing Events Interpolation Managed Render Sprite
-  other-modules: Reactive.Banana.SDL.Internal.Interpolation Reactive.Banana.SDL.Internal.Managed
+  -- other-modules:
   -- other-extensions:
   ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
 
